@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Password app generator</title>
+	</head>
+	<body>
+		<h1>Password Generator</h1>
+		<div class="password">
+			<p>PTx1f5DaFX</p>
+			<img src="copier.svg" alt="copier" />
+		</div>
+		<div class="options">
+			<div class="length">
+				<p>Character Length</p>
+				<p>10</p>
+			</div>
+			<div class="bar">
+				<input type="range" id="range" min="0" max="100" />
+			</div>
+			<div class="checkbox">
+				<div class="checkbox1">
+					<input type="checkbox" id="checkbox" />
+					<label for="checkbox"> Include Uppercase Letters</label>
+				</div>
+				<div class="checkbox1">
+					<input type="checkbox" id="checkbox" />
+					<label for="checkbox"> Include Lowercase Letters</label>
+				</div>
+				<div class="checkbox1">
+					<input type="checkbox" id="checkbox" />
+					<label for="checkbox"> Include Numbers</label>
+				</div>
+				<div class="checkbox1">
+					<input type="checkbox" id="checkbox" />
+					<label for="checkbox"> Include Symbols</label>
+				</div>
+			</div>
+			<div class="strength">
+				<p class="pstrength">STRENGTH</p>
+				<p>MEDIUM</p>
+				<div class="a"></div>
+				<div class="a"></div>
+				<div class="a"></div>
+				<div class="a"></div>
+			</div>
+			<div class="generate">
+				<button>GENERATE</button>
+				<img src="fleche.svg" alt="suivant" />
+			</div>
+		</div>
+	</body>
+</html>

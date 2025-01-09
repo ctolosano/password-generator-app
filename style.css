@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&display=swap");
+
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "JetBrains Mono", serif;
+	background-color: #08070b;
+	color: #e6e5ea;
+}
+
+h1 {
+	display: flex;
+	color: #817d92;
+    font-size: 16px;
+    justify-content: center;
+}
+
+.password {
+	display: flex;
+	justify-content: space-between;
+	width: 95%;
+	background-color: #24232c;
+	margin: 0 auto;
+	padding: 10px;
+	align-items: center;
+}
+
+.options {
+    margin-top: 10px;
+	width: 95%;
+	background-color: #24232c;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.length {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bar {
+	display: flex;
+	width:100%;
+}
+
+.checkbox {
+	display: flex;
+	flex-direction: column;
+}
+
+.checkbox1 {
+	display: flex;
+}
+.strength {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+    background-color: #18171F;
+    padding: 10px;
+}
+
+.a {
+	background-color: #F8CD65;
+	width: 10px;
+	height: 28px;
+}
+
+.generate, button {
+	background-color: #a4ffaf;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+    font-family: "JetBrains Mono", serif;
+
+}
+
+.generate {
+	display: flex;
+	margin: 0 auto;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.pstrength {
+    color: #817D92;
+}
+
